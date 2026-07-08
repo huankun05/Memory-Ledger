@@ -51,6 +51,13 @@ mobile/items_manager.db
 *.swo
 *~
 
+# TRAE IDE internal
+.trae/
+.codebuddy/
+ENGINEERING_STANDARD.md
+Plan.md
+.trae-cn/
+
 # OS
 .DS_Store
 Thumbs.db
