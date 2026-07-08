@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+web-build/
+mobile/dist/
+web/dist/
+backend/dist/
+
+# Expo
+.expo/
+expo-env.d.ts
+
+# Native
+.gradle/
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# Environment files
+.env*.local
+.env
+DOUBAO_API_KEY
+
+# Database files
+*.db
+data.db
+mobile/items_manager.db
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Server logs
+server_err.txt
+server_out.txt
+update-cache.json
+
+# Crop logs
+crop_log.txt
+
+# APK/IPA
+*.apk
+*.ipa
+
+# OCR models
+mobile/android/app/src/main/assets/models/*.onnx
+
+# ZIP archives
+*.zip
+
+# temp files
+*.tmp
+*.bak
